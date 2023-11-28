@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .serializers import EventoSerializer
+from .serializer import EventoSerializer
 from miapp.models import Evento
 
 # Create your views here.
