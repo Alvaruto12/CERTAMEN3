@@ -5,4 +5,4 @@ from miapp.models import Evento
 # Create your views here.
 class EventoViewSet(viewsets.ModelViewSet):
   queryset = Evento.objects.all()
-  serializers_class = EventoSerializer
+  serializer_class = EventoSerializer
