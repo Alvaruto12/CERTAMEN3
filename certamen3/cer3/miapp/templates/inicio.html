@@ -1,0 +1,52 @@
+{% extends 'CER3/base.html' %}
+{% load static %}
+
+{% block content %}
+<body>
+
+    <header>
+        <img src="CER3/img/logo.png" alt="Logo">
+    </header>
+
+    <main>
+        <img src="calendario.png" alt="Calendario">
+
+        <select name="comboBox1">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+        </select>
+
+        <select name="comboBox2">
+            <option value="opcionA">Opción A</option>
+            <option value="opcionB">Opción B</option>
+        </select>
+
+        <!-- Tabla de actividades -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Hitos</th>
+                    <th>Fecha Inicio</th>
+                    <th>Fecha Término</th>
+                    <th>Tipo</th>
+                    <th>Segmento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Actividad 1</td>
+                    <td>Fecha 1</td>
+                    <td>Fecha 2</td>
+                    <td>Tipo A</td>
+                    <td>Segmento 1</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        Tu información de pie de página.
+    </footer>
+
+</body>
+{% endblock %}
