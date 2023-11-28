@@ -10,4 +10,4 @@ def index(request):
         "title": title,
     }
 
-    return render(request,'cer3/index.html', data)
+    return render(request,'miapp/index.html', data)
